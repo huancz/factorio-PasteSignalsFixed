@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2025-06-03
+  Info:
+    - re-release under new name (happy to return control to original author if they come back to modding)
+    - Updated for Factorio 2.0 (tested with expansion, probably works on plain 2.0 too)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2021.11.09
   Info:

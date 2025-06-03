@@ -2,6 +2,6 @@
 
 PV=$(cat src/info.json | jq -r '.version')
 
-cp -r src "PasteSignals_${PV}"
-7z a -tzip "PasteSignals_${PV}.zip" "PasteSignals_${PV}"/
-rm -rf -- "./PasteSignals_${PV}"
+cp -r src "PasteSignalsFixed_${PV}"
+7z a -tzip "PasteSignalsFixed_${PV}.zip" "PasteSignalsFixed_${PV}"/
+rm -rf -- "./PasteSignalsFixed_${PV}"

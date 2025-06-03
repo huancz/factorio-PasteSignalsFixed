@@ -1,10 +1,10 @@
 {
-	"name": "PasteSignals",
-	"version": "0.1.1",
-	"title": "Paste Signals",
-	"author": "PFQ_Niet",
-	"contact": "Discord: Niet#9801",
-	"description": "Allows copying of signals from a power pole to a Constant Combinator, effectively snapshotting the values.",
-	"factorio_version": "1.1",
+	"name": "PasteSignalsFixed",
+	"version": "0.1.2",
+	"title": "Paste Signals Fixed",
+	"author": "huancz",
+	"contact": "github: huancz/Factorio/PasteSignalsFixed",
+	"description": "Allows copying of signals from a power pole to a Constant Combinator, effectively snapshotting the values. Fixed for factorio 2.0",
+	"factorio_version": "2.0",
 	"dependencies": []
 }
