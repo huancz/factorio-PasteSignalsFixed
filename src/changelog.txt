@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2021.11.09
+  Info:
+    - Updated to Factorio 1.1
+  Bugfixes:
+    - Now works with any constant-combinator, not just the vanilla one
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2020.05.21
+  Info:
+    - Initial release
