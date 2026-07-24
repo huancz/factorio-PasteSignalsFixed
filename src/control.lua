@@ -9,6 +9,12 @@ function handle_paste(event)
 	local signals = source.get_signals(defines.wire_connector_id.circuit_red, defines.wire_connector_id.circuit_green)
 
 	local control = dest.get_or_create_control_behavior()
+	for n = control.sections_count, 1, -1 do
+		local sect = control.get_section(n)
+		if sect.group == "" and sect.filters_count == 0 then
+			control.remove_section(n)
+		end
+	end
 	local section = control.add_section()
 	if not (section) then return end
 
